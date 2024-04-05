@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.left{
+    width: 25vw;
+}
+.right{
+    width: 75vw;
+    margin: 10px;
+    position: relative;
+}
+.home ul li{
+    list-style: none;
+    width: 14px;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+}
+.heading{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.footer{
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+}
+.footer a{
+    color: grey;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+.spotify_playlist{
+    font-size: 15px;
+    padding: 15px;
+}
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 70vh;
+    overflow: scroll;
+}
+.card{
+    position: relative;
+    width: 200px;
+    background-color: grey;
+    padding: 10px 2px;
+    margin: 10px;
+}
+.card img{
+ width: 100%;
+ object-fit: contain;
+}
+.card:hover{
+    box-shadow: inset;
+}
+.play{
+    position: absolute;
+    right: 7px;
+    bottom: 54px;
+    width: 40px;
+    opacity: 0;
+}
+.play:hover{
+    opacity: 1;
+}
+.bot{
+    display: flex;
+    gap: 20px;
+}
+.signup{
+    background-color: #121212;
+    font-weight: bold;
+    color:grey;
+    border: none;
+    outline: none;
+}
+.signup:hover{
+    font-size: 1.0rem;
+    color: white;
+}
+.login{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color:black;
+    border: none;
+    outline: none;
+    width: 70px;
+}
+.login:hover{
+    font-weight: bold;
+}
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(9, 52, 9);
+    width: 100%;
+    padding: 12px;
+}
